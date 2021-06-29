@@ -1,4 +1,5 @@
-
+//contruir o violao
+//passos para a contruão e um metodo que devolve o violao construido
 package padraoprojetobuilder;
 
 public class ViolaoClassicoBuilder extends ViolaoBuilder {
@@ -7,7 +8,7 @@ public class ViolaoClassicoBuilder extends ViolaoBuilder {
     public void buildPreco() {
         violao.preco = 320.20;
     }
-
+    
     @Override
     public void buildCorViolao() {
         violao.cor = "Preto. ";
