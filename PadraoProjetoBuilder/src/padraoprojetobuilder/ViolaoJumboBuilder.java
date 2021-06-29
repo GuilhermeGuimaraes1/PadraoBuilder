@@ -1,11 +1,10 @@
-
 package padraoprojetobuilder;
 
-public class ViolaoClassicoBuilder extends ViolaoBuilder {
+public class ViolaoJumboBuilder extends ViolaoBuilder {
 
     @Override
     public void buildPreco() {
-        violao.preco = 320.20;
+        violao.preco = 500.88;
     }
 
     @Override
@@ -15,12 +14,12 @@ public class ViolaoClassicoBuilder extends ViolaoBuilder {
 
     @Override
     public void buildTipoCorda() {
-        violao.tipoCorda = "aço. ";
+        violao.tipoCorda = "Aço. ";
     }
 
     @Override
     public void buildTipoTarraxa() {
-        violao.tipoTarraxa = "12 cm x 4 cm. ";
+        violao.tipoTarraxa = "12 cm x 4.0 cm. ";
     }
 
     @Override
@@ -30,6 +29,6 @@ public class ViolaoClassicoBuilder extends ViolaoBuilder {
 
     @Override
     public void buildModelo() {
-        violao.modelo = "Clássico. ";
-    }   
+        violao.modelo = "Jumbo. ";
+    }
 }
