@@ -1,4 +1,4 @@
-
+//todos os passos necessários para construir um objeto
 package padraoprojetobuilder;
 
 public class ViolaoProduct {

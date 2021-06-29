@@ -1,4 +1,4 @@
-
+//possui um metodo para contruir cada um dos dados do nosso produto
 package padraoprojetobuilder;
 
 public abstract class ViolaoBuilder{

@@ -1,4 +1,4 @@
-
+//utiliza a estrutura do builder para definir o algoristimo de construção do produto
 package padraoprojetobuilder;
 
 public class VenderViolaoDirector {
