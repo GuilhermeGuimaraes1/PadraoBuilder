@@ -20,6 +20,8 @@ public abstract class ViolaoBuilder{
     
     public abstract void buildModelo();
     
+    public abstract void buildTamanhoBraco();
+    
     public ViolaoProduct getViolao() {
         return violao;
     }

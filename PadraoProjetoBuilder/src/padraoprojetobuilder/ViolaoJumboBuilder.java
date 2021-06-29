@@ -31,4 +31,9 @@ public class ViolaoJumboBuilder extends ViolaoBuilder {
     public void buildModelo() {
         violao.modelo = "Jumbo. ";
     }
+    
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
 }

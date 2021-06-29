@@ -31,5 +31,11 @@ public class ViolaoClassicoBuilder extends ViolaoBuilder {
     @Override
     public void buildModelo() {
         violao.modelo = "Clássico. ";
-    }   
+    }
+
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
+  
 }

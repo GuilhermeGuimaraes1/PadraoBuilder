@@ -15,6 +15,7 @@ public class VenderViolaoDirector {
         venderViolao.buildTipoTarraxa();
         venderViolao.buildTipoMaterialCorpo();
         venderViolao.buildModelo();
+        venderViolao.buildTamanhoBraco();
     }
     
    public ViolaoProduct getViolao() {

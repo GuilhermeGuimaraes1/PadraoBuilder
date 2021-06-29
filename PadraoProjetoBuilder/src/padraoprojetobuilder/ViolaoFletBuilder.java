@@ -31,4 +31,9 @@ public class ViolaoFletBuilder extends ViolaoBuilder {
     public void buildModelo() {
         violao.modelo = "Flet. ";
     }
+    
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
 }

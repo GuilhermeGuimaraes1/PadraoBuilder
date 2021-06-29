@@ -31,4 +31,9 @@ public class Violao7CordasBuilder extends ViolaoBuilder {
     public void buildModelo() {
         violao.modelo = "Violao 7 Cordas. ";
     }
+
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
 }

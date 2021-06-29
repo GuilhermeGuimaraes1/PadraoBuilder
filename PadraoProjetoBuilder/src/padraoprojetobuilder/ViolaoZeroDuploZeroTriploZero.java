@@ -31,4 +31,9 @@ public class ViolaoZeroDuploZeroTriploZero extends ViolaoBuilder {
     public void buildModelo() {
         violao.modelo = "Violao zero, Duplo zero e Triplo zero. ";
     }
+    
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
 }

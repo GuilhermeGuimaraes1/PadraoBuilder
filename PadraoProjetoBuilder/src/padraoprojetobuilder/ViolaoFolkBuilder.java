@@ -31,4 +31,9 @@ public class ViolaoFolkBuilder extends ViolaoBuilder {
     public void buildModelo() {
         violao.modelo = "Folk. ";
     }
+    
+    @Override
+    public void buildTamanhoBraco() {
+        System.out.println("");
+    }
 }
